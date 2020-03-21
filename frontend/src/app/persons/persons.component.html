@@ -1,0 +1,17 @@
+<table class="table table-hover table-bordered table-success">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>username</th>
+    <th>password</th>
+  </tr>
+  </thead>
+
+  <tbody *ngFor="let person of persons">
+  <tr>
+    <td>{{person.id}}</td>
+    <td>{{person.username}}</td>
+    <td>{{person.password}}</td>
+  </tr>
+  </tbody>
+</table>
